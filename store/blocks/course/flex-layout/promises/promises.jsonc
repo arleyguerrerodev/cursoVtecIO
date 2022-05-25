@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#promises": {
+        "children": [
+            "flex-layout.col#promise-1",
+            "flex-layout.col#promise-2",
+            "flex-layout.col#promise-3",
+            "flex-layout.col#promise-4",
+            "flex-layout.col#promise-5"
+        ],
+        "props":{
+            "marginBottom": 2,
+            "marginTop": 2
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "flex-layout.col#promise-1": {
+        "children": [
+            "flex-layout.row#promise-1"
+        ]
+    },
+    "flex-layout.row#promise-1": {
+        "children": [
+            "image#promise-1",
+            "rich-text#promise-1"
+        ],
+        "props":{
+            "verticalAlign":"middle"
+        }
+    },
+    "image#promise-1": {
+        "props": {
+            "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff",
+            "maxWidth": 40,
+            "maxHeight": 50
+        }
+    },
+    "rich-text#promise-1": {
+        "props": {
+            "text": "Entregamos en\n**45 min**"
+        }
+    },
+    "flex-layout.col#promise-2": {
+        "children": [
+            "flex-layout.row#promise-2"
+        ]
+    },
+    "flex-layout.row#promise-2": {
+        "children": [
+            "image#promise-1",
+            "rich-text#promise-2"
+        ]
+    },
+    "rich-text#promise-2": {
+        "props": {
+            "text": "Compra **fácil**\n**y segura**"
+        }
+    },
+    "flex-layout.col#promise-3": {
+        "children": [
+            "flex-layout.row#promise-3"
+        ]
+    },
+    "flex-layout.row#promise-3": {
+        "children": [
+            "image#promise-1",
+            "rich-text#promise-3"
+        ]
+    },
+    "rich-text#promise-3": {
+        "props": {
+            "text": "Mejores precios y\n**ofertas**"
+        }
+    },
+
+    "flex-layout.col#promise-4": {
+        "children": [
+            "flex-layout.row#promise-4"
+        ]
+    },
+    "flex-layout.row#promise-4": {
+        "children": [
+            "image#promise-1",
+            "rich-text#promise-4"
+        ]
+    },
+    "rich-text#promise-4": {
+        "props": {
+            "text": "Seguimiento \n**de tus pedidos**"
+        }
+    },
+
+    "flex-layout.col#promise-5": {
+        "children": [
+            "flex-layout.row#promise-5"
+        ]
+    },
+    "flex-layout.row#promise-5": {
+        "children": [
+            "image#promise-1",
+            "rich-text#promise-5"
+        ]
+    },
+    "rich-text#promise-5": {
+        "props": {
+            "text": "Pago **online y**\n**contra entrega**"
+        }
+    }
+}

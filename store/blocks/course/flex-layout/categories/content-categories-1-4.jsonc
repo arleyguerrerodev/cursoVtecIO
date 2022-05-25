@@ -1,0 +1,63 @@
+{
+    "flex-layout.col#category-1": {
+        "title":"Content image and title category 1",
+        "children": [
+            "image#category-1",
+            "rich-text#titleCartegory-1"
+        ]
+    },
+    "image#category-1": {
+        "title":"Image category 1",
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "maxWidth": 93,
+            "maxHeight": 93
+        }
+    },
+    "rich-text#titleCartegory-1": {
+        "title":"Title category 1",
+        "props": {
+            "text": "Cuidado Capilar"
+        }
+    },
+
+    "flex-layout.col#category-2": {
+        "title":"Content image and title category 2",
+        "children": [
+            "image#category-1",
+            "rich-text#titleCartegory-2"
+        ]
+    },
+    "rich-text#titleCartegory-2": {
+        "title":"Title category 2",
+        "props": {
+            "text": "Cuidado Corporal"
+        }
+    },
+    "flex-layout.col#category-3": {
+        "title":"Content image and title category 3",
+        "children": [
+            "image#category-1",
+            "rich-text#titleCartegory-3"
+        ]
+    },
+    "rich-text#titleCartegory-3": {
+        "title":"Title category 3",
+        "props": {
+            "text": "Cuidado Facial"
+        }
+    },
+    "flex-layout.col#category-4": {
+        "title":"Content image and title category 4",
+        "children": [
+            "image#category-1",
+            "rich-text#titleCartegory-4"
+        ]
+    },
+    "rich-text#titleCartegory-4": {
+        "title":"Title category 4",
+        "props": {
+            "text": "Maquillaje"
+        }
+    }
+}
