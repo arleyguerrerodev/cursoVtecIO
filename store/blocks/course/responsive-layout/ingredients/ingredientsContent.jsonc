@@ -1,0 +1,85 @@
+{
+    "image#iconStepOne":{
+        "props":{
+            "src":"https://i.imgur.com/RWj3DiZ.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#descripcionStepOne":{
+        "props":{
+            "text":"60 minutos"
+        }
+    },
+    "image#iconStepTwo":{
+        "props":{
+            "src":"https://i.imgur.com/YU224Ni.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#descripcionStepTwo":{
+        "props":{
+            "text":"8 ingredientes"
+        }
+    },
+    "image#iconStepThree":{
+        "props":{
+            "src":"https://i.imgur.com/EvjGjXS.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#descripcionStepThree":{
+        "props":{
+            "text":"Nivel: Principiante",
+            "blockClass":"descriptionStep"
+        }
+    },
+    "image#iconStepFour":{
+        "props":{
+            "src":"https://imgur.com/9V8uyXo.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#descripcionStepFour":{
+        "props":{
+            "text":"4 a 6 comensales"
+        }
+    },
+    "image#iconStepFive":{
+        "props":{
+            "src":"https://i.imgur.com/xx4LO0k.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#descripcionStepFive":{
+        "props":{
+            "text":"S/1200 - S/1480"
+        }
+    },
+    "image#iconStepSix":{
+        "props":{
+            "src":"https://i.imgur.com/IhKo5Rc.png",
+            "maxWidth": 24,
+            "maxHeight": 24
+        }
+    },
+    "rich-text#descripcionStepSix":{
+        "props":{
+            "text":"País: Perú"
+        }
+    },
+    "flex-layout.col#StepFive":{
+        "children":[
+            "flex-layout.row#StepFive"
+        ]
+    },
+    "flex-layout.col#StepSix":{
+        "children":[
+            "flex-layout.row#StepSix"
+        ]
+    }
+}
