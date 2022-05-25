@@ -4,7 +4,8 @@
       "flex-layout.row#ourValues",
       "flex-layout.row#promises",
       "flex-layout.row#categories",
-      "flex-layout.row#recipeContainer"
+      "flex-layout.row#recipeContainer",
+      "flex-layout.row#valuePromises"
     ]
   }
 }
