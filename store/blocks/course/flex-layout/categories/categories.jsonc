@@ -1,0 +1,32 @@
+{
+    "flex-layout.row#categories": {
+        "title":"Content Categories",
+        "children": [
+            "flex-layout.col#titleCategories",
+            "flex-layout.col#category-1",
+            "flex-layout.col#category-2",
+            "flex-layout.col#category-3",
+            "flex-layout.col#category-4",
+            "flex-layout.col#category-5",
+            "flex-layout.col#category-6",
+            "flex-layout.col#category-7",
+            "flex-layout.col#category-8"
+        ],
+        "props":{
+            "marginBottom": 2,
+            "marginTop": 2
+        }
+    },
+    "flex-layout.col#titleCategories": {
+        "title":"Content title categories",
+        "children": [
+            "rich-text#titleCategories"
+        ]
+    },
+    "rich-text#titleCategories": {
+        "title":"Title Categories",
+        "props": {
+            "text": "¿Qué estas\nbuscando? \n[**Ver todo**](/all-products)"
+        }
+    }
+}

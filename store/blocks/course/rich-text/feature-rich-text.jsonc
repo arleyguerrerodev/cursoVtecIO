@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#ourValues":{
+        "children":[
+            "rich-text#ourValuesTitle",
+            "rich-text#ourValuesList"
+        ]
+    },
+    "rich-text#ourValuesTitle": {
+        "title": "Valores BlackSip",
+        "props": {
+            "text": "# Nuestros valores",
+            "textPosition":"CENTER"
+        }
+    },
+    "rich-text#ourValuesList": {
+        "props": {
+            "text": "* Perseguimos el WOW de nuestros clientes\n* Perseguimos el aprendizaje y el crecimiento\n* Somos apasionados y disciplinados\n* Somos un equipo\n* Somos orientas a resultados"
+        }
+    }
+}
