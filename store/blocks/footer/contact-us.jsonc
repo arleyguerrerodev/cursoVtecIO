@@ -1,0 +1,55 @@
+{
+    "flex-layout.col#contactUs":{
+        "children":[
+            "disclosure-layout#contactUs"
+        ]
+    },
+    "disclosure-layout#contactUs":{
+        "children":[
+            "disclosure-trigger#contactUs",
+            "disclosure-content#contactUs"
+        ],
+        "props": {
+            "animated": true
+        }
+    },
+    "disclosure-trigger#contactUs": {
+        "children": [
+            "rich-text#contactUsFooter"
+        ],
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        }
+    },
+    "rich-text#contactUsFooter": {
+        "props": {
+            "text": "Contáctanos"
+        }
+    },
+    "disclosure-content#contactUs": {
+        "children": [
+            "rich-text#contactUsFooterPhone",
+            "rich-text#contactUsFooterWhatsapp",
+            "rich-text#contactUsFooterStoreLocation"
+        ],
+        "props": {
+            "blockClass": "answer"
+        }
+    },
+    "rich-text#contactUsFooterPhone": {
+        "props": {
+            "text": "Ventas por teléfono **800-3456789**"
+        }
+    },
+    "rich-text#contactUsFooterWhatsapp": {
+        "props": {
+            "text": "Línea de atención por WhatsApp \n 301 324 5678 "
+        }
+    },
+    "rich-text#contactUsFooterStoreLocation": {
+        "props": {
+            "text": "Nuestras tiendas"
+        }
+    }
+}

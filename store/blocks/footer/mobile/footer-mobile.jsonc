@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#footer-mobile": {
+        "children": [
+            "flex-layout.row#socialMedia",
+            "flex-layout.col#aboutUs",
+            "flex-layout.col#contactUs",
+            "flex-layout.col#methodPayment"
+        ]
+    },
+    "flex-layout.row#socialMedia":{
+        "children":[
+            "social-networks"
+        ]
+    },
+    "flex-layout.col#methodPayment":{
+        "children":[
+            "rich-text#methodPayment",
+            "accepted-payment-methods"
+        ]
+    },
+    "rich-text#methodPayment":{
+        "props":{
+            "text":"Medios de pago disponibles"
+        }
+    },
+    "flex-layout.col#aboutUs":{
+        "children":[
+            "disclosure-layout#aboutUs"
+        ]
+    }
+}

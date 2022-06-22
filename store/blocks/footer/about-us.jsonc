@@ -1,0 +1,50 @@
+{
+    "disclosure-layout#aboutUs":{
+        "children":[
+            "disclosure-trigger#aboutUs",
+            "disclosure-content#aboutUs"
+        ],
+        "props": {
+            "animated": true
+        }
+    },
+    "disclosure-trigger#aboutUs": {
+        "children": [
+            "rich-text#question1"
+        ],
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        }
+    },
+    "disclosure-content#aboutUs": {
+        "children": [
+            "rich-text#answer1",
+            "rich-text#answer2",
+            "rich-text#answer3"
+        ],
+        "props": {
+            "blockClass": "answer"
+        }
+    },
+    "rich-text#question1": {
+        "props": {
+            "text": "Nosotros"
+        }
+    },
+    "rich-text#answer1": {
+        "props": {
+            "text": "Quiénemos somos"
+        }
+    },
+    "rich-text#answer2": {
+        "props": {
+            "text": "Avisos de Privacidad"
+        }
+    },
+    "rich-text#answer3": {
+        "props": {
+            "text": "Términos y condiciones"
+        }
+    }
+}
